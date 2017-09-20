@@ -4,7 +4,7 @@ use Willibert\Abstract\Person;
 
 namespace Willibert\Document;
 
-class Order extends Person;
+class Customer extends Person;
 {
 	public function __construct($id)
 	{
