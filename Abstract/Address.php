@@ -2,7 +2,7 @@
 
 namespace Willibert\Abstract;
 
-abstract class Document
+abstract class Address
 {
 	private $id;
 	
