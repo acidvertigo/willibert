@@ -2,7 +2,7 @@
 
 use Willibert\Abstract\Person;
 
-namespace Willibert\Document;
+namespace Willibert\Person;
 
 class Customer extends Person;
 {
