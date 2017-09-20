@@ -8,6 +8,6 @@ abstract class Person
 	
 	public function getId()
 	{
-		return $this-id;
+		return $this->id;
 	}
 }
