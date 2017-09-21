@@ -1,6 +1,6 @@
 <?php
 
-use Willibert\Abstract\Item;
+use Willibert\Abstraction\Item;
 
 namespace Willibert\Item;
 
