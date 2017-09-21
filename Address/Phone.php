@@ -1,6 +1,6 @@
 <?php
 
-use Willibert\Abstract\Address;
+use Willibert\Abstraction\Address;
 
 namespace Willibert\Address;
 
