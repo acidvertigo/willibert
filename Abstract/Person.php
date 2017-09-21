@@ -4,7 +4,9 @@ namespace Willibert\Abstract;
 
 abstract class Person
 {
-	private $id;
+	private   $id;
+	protected $name;
+	protected $surname;
 
 	public function getId()
 	{
