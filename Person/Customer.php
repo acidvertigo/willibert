@@ -1,6 +1,6 @@
 <?php
 
-use Willibert\Abstract\Person;
+use Willibert\Abstraction\Person;
 
 namespace Willibert\Person;
 
