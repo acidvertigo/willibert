@@ -1,6 +1,6 @@
 <?php
 
-namespace Willibert\Abstract;
+namespace Willibert\Abstraction;
 
 abstract class Company
 {
