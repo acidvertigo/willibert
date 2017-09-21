@@ -16,4 +16,5 @@ abstract class Collection implements \Countable, \IteratorAggregate,
     abstract public function getAll();
     abstract public function add($key, $value);    
     abstract public function remove($key);
+    abstract public function contains($value);
 }
