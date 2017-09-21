@@ -12,4 +12,8 @@ abstract class Person
 	{
 		return $this->id;
 	}
+	
+	abstract function getName();
+	
+	abstract function getSurname();
 }
