@@ -2,7 +2,7 @@
 
 namespace Willibert\Abstraction;
 
-abstract class Collection implements \Countable, \IteratorAggregate, 
+abstract class Collection implements \Countable, \IteratorAggregate
 {
     protected $id;
     protected $items
