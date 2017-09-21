@@ -4,7 +4,7 @@ namespace Willibert\Abstract;
 
 abstract class Person
 {
-	private   $id;
+	protected $id;
 	protected $name;
 	protected $surname;
 
