@@ -19,4 +19,5 @@ abstract class Collection implements \Countable, \IteratorAggregate
     abstract public function contains($value);
     abstract public function push($value);
     abstract public function prepend($value);
+    abstract public function sort(\Closure $callback);
 }
