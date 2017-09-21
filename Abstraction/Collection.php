@@ -12,8 +12,8 @@ abstract class Collection implements \Countable, \IteratorAggregate,
     	return $this->id;
     }
     
-    abstract public function get();
+    abstract public function get($key);
     abstract public function getAll();
     abstract public function add($key, $value);    
-    abstract public function remove();
+    abstract public function remove($key);
 }
