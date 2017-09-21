@@ -4,7 +4,7 @@ namespace Willibert\Abstract;
 
 abstract class Company
 {
-	private $id;
+	protected $id;
 
 	public function getId()
 	{
