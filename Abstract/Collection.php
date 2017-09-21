@@ -2,9 +2,10 @@
 
 namespace Willibert\Abstract;
 
-abstract class Collection
+abstract class Collection implements \Countable
 {
     protected $id;
+    protected $items
     
     public function getId()
     {
