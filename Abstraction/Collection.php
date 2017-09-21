@@ -2,7 +2,7 @@
 
 namespace Willibert\Abstraction;
 
-abstract class Collection implements \Countable
+abstract class Collection implements \Countable, \IteratorAggregate, 
 {
     protected $id;
     protected $items
@@ -11,4 +11,9 @@ abstract class Collection implements \Countable
     {
     	return $this->id;
     }
+    
+    abstract public function get();
+    abstract public function getAll();
+    abstract public function add($key, $value);    
+    abstract public function remove();
 }
