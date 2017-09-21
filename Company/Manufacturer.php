@@ -1,6 +1,6 @@
 <?php
 
-use Willibert\Abstract\Company;
+use Willibert\Abstraction\Company;
 
 namespace Willibert\Company;
 
