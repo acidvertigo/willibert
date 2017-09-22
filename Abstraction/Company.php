@@ -15,6 +15,6 @@ abstract class Company
 		return $this->id;
 	}
 	
-	/* map
+	/* map one array to obkect properties */
 	abstract public function map(array $data);
 }
