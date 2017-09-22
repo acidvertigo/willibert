@@ -53,6 +53,6 @@ class Category extends Collection
 
     public function sort(\Closure $callback)
     {
-    	
+    	uasort($this->items, $callback);
     }
 }
