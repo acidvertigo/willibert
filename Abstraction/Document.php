@@ -1,5 +1,8 @@
 <?php
 
+/***********************************************
+ * Document abstraction.
+ **********************************************/
 namespace Willibert\Abstraction;
 
 abstract class Document
