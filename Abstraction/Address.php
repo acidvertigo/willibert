@@ -12,10 +12,3 @@ abstract class Address
 	}
 }
 
-class AddressFacotory
-{
-	public function create()
-	{
-		return new Address();
-	}
-}
