@@ -1,5 +1,8 @@
 <?php
 
+/***********************************************
+ * Item abstraction.
+ **********************************************/
 namespace Willibert\Abstraction;
 
 abstract class Item
