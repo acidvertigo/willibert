@@ -16,5 +16,7 @@ abstract class Person
 	
 	abstract public function getName();	
 	abstract public function getSurname();
+	
+	/* map one array to obkect properties */
 	abstract public function map(array $data);
 }
