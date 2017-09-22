@@ -1,7 +1,7 @@
 <?php
 
 use Willibert\Abstraction\Person;
-use Willibert\Address;
+use Willibert\Location\Address;
 
 namespace Willibert\Person;
 
