@@ -10,4 +10,9 @@ class PackingSlip extends Document;
 	{
 		$this->id = $id;
 	}
+	
+	public function map(array $data)
+	{
+		
+	}
 }
