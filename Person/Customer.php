@@ -22,7 +22,7 @@ class Customer extends Person;
         $this->name = $name;
 	}
 	
-	9public function getSurName()
+	public function getSurName()
 	{
 		return $this->surname;
 	}
