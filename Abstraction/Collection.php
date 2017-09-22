@@ -45,5 +45,31 @@ abstract class Collection implements \Countable, \IteratorAggregate
 
     /* sort the collection */
     abstract public function sort(\Closure $callback);
+    
+    public function count()
+    {
+        return count($this->items);
+    }
+
+    public function getIterator()
+    {
+        return new \ArrayIterator($this->items);
+    }
+    
+    public function get($key)
+    {
+    	return $this->items[$key];
+    }
+    
+    public function getAll()
+    {
+    	return $this->items;
+    }
+    
+    public function add($key, $value)
+    {
+    	$this->items[$key] = $value;
+    }
+    
 
 }
