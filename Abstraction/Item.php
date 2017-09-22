@@ -10,4 +10,6 @@ abstract class Item
 	{
 		return $this->id;
 	}
+	
+	abstract public function map(array $data);
 }
