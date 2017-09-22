@@ -10,5 +10,7 @@ abstract class Location
 	{
 		return $this->id;
 	}
+	
+	abstract public function map(array $data);
 }
 
