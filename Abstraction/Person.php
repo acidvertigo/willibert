@@ -1,5 +1,8 @@
 <?php
 
+/***********************************************
+ * Person abstraction.
+ **********************************************/
 namespace Willibert\Abstraction;
 
 abstract class Person
