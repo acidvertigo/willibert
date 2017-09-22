@@ -11,6 +11,10 @@ abstract class Person
 	protected $name;
 	protected $surname;
 	protected $address;
+	protected $dob;
+	protected $email;
+	protected $telephone;
+	protected $fax;
 
 	public function getId()
 	{
