@@ -1,4 +1,7 @@
 <?php
+/***********************************************
+ * Collection abstraction.
+ **********************************************/
 
 namespace Willibert\Abstraction;
 
