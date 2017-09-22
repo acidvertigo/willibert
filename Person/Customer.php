@@ -84,4 +84,11 @@ class Customer extends Person;
 	{
 		$this->phone = $telephone;
 	}
+	
+	public getFax()
+	{
+		return $this->fax;
+	}
+	
+	public 
 }
