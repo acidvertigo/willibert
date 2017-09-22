@@ -48,7 +48,7 @@ class Customer extends Person;
 		$this->surname = $data['surname'];
         if($data['address'])
         {
-        	$this->setAddress(new Address);
+        	$this->address = new Address;
         	$this->address->map(
         	                    $data['address']
         	                    );
