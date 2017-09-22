@@ -14,6 +14,7 @@ abstract class Location
 		return $this->id;
 	}
 	
+	/* map one array to obkect properties */
 	abstract public function map(array $data);
 }
 
