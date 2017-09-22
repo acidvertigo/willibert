@@ -7,7 +7,9 @@ namespace Willibert\Abstraction;
 
 abstract class Collection implements \Countable, \IteratorAggregate
 {
+    /* @var int $id collection id */
     protected $id;
+    /* @var array $items collection container */
     protected $items;
     
     public function __construct($items)
@@ -20,13 +22,28 @@ abstract class Collection implements \Countable, \IteratorAggregate
     	return $this->id;
     }
 
+    /* get one colection */
     abstract public function get($key);
+
+    /* get all collections */
     abstract public function getAll();
-    abstract public function add($key, $value);    
+
+    /* add one item to collection */
+    abstract public function add($key, $value);
+
+    /* remove one item from collection */
     abstract public function remove($key);
+
+    /* cheks if value is in the collection */
     abstract public function contains($value);
+
+    /* push one element at the end of the collection */
     abstract public function push($value);
+
+    /* add one item on top of the collection */
     abstract public function prepend($value);
+
+    /* sort the collection */
     abstract public function sort(\Closure $callback);
 
 }
