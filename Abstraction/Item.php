@@ -14,5 +14,6 @@ abstract class Item
 		return $this->id;
 	}
 	
+	/* map one array to obkect properties */
 	abstract public function map(array $data);
 }
