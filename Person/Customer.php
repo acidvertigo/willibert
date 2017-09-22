@@ -53,6 +53,11 @@ class Customer extends Person;
         	                    $data['address']
         	                    );
         }
+        $this->dob   = $data['dob'];
+        $this->email = $data['email'];
+        $this->phone = $data['phone'];
+        $this->fax   = $data['fax'];
+        
 	}
 	
 	public function getDob()
@@ -88,6 +93,11 @@ class Customer extends Person;
 	public function getFax()
 	{
 		return $this->fax;
+	}
+	
+	public function setFax($fax)
+	{
+		$this->fax = $fax;
 	}
 	
 	public function getPassword()
