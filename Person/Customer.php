@@ -30,4 +30,9 @@ class Customer extends Person;
 	{
         $this->surname = $surname;
 	}
+	
+	public function map(array $data)
+	{
+		
+	}
 }
