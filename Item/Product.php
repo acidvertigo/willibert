@@ -10,4 +10,9 @@ class Product extends Item;
 	{
 		$this->id = $id;
 	}
+	
+	public function map(array $data)
+	{
+		
+	}
 }
