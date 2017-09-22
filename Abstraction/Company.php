@@ -1,5 +1,9 @@
 <?php
 
+/***********************************************
+ * Company abstraction.
+ **********************************************/
+
 namespace Willibert\Abstraction;
 
 abstract class Company
@@ -11,5 +15,6 @@ abstract class Company
 		return $this->id;
 	}
 	
+	/* map
 	abstract public function map(array $data);
 }
