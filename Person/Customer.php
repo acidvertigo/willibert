@@ -1,6 +1,7 @@
 <?php
 
 use Willibert\Abstraction\Person;
+use Willibert\Address;
 
 namespace Willibert\Person;
 
@@ -35,6 +36,12 @@ class Customer extends Person;
 	{
 		$this->name    = $data['name'];
 		$this->surname = $data['surname'];
-
+        if($data['address'])
+        {
+        	$this->address = new Address;
+        	$this->address->map(
+        	                    $data['address‘]
+        	                    );
+        }
 	}
 }
