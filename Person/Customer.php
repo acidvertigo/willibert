@@ -64,4 +64,24 @@ class Customer extends Person;
 	{
 	    $this->dob = $dob;	
 	}
+	
+	public getEmail()
+	{
+		return $this->email;
+	}
+	
+	public setEmail($email)
+	{
+		$this->email = $email;
+	}
+	
+	public getPhone()
+	{
+		return $this->telephone;
+	}
+	
+	public setPhone($telephone)
+	{
+		$this->phone = $telephone;
+	}
 }
