@@ -55,40 +55,48 @@ class Customer extends Person;
         }
 	}
 	
-	public getDob()
+	public function getDob()
 	{
 		return $this->dob;
 	}
 	
-	public setDob($dob)
+	public function setDob($dob)
 	{
 	    $this->dob = $dob;	
 	}
 	
-	public getEmail()
+	public function getEmail()
 	{
 		return $this->email;
 	}
 	
-	public setEmail($email)
+	public function setEmail($email)
 	{
 		$this->email = $email;
 	}
 	
-	public getPhone()
+	public function getPhone()
 	{
 		return $this->telephone;
 	}
 	
-	public setPhone($telephone)
+	public function setPhone($telephone)
 	{
 		$this->phone = $telephone;
 	}
 	
-	public getFax()
+	public function getFax()
 	{
 		return $this->fax;
 	}
 	
-	public 
+	public function getPassword()
+	{
+		return $this->password;
+	}
+	
+	public funcion setPassword($password)
+	{
+		$this->password = $password;
+	}
 }
