@@ -7,6 +7,7 @@ abstract class Person
 	protected $id;
 	protected $name;
 	protected $surname;
+	protected $address;
 
 	public function getId()
 	{
