@@ -53,11 +53,11 @@ class Customer extends Person;
         	                    $data['address']
         	                    );
         }
-        $this->dob   = $data['dob'];
-        $this->email = $data['email'];
-        $this->phone = $data['phone'];
-        $this->fax   = $data['fax'];
-        
+        $this->dob      = $data['dob'];
+        $this->email    = $data['email'];
+        $this->phone    = $data['phone'];
+        $this->fax      = $data['fax'];
+        $this->password = $data['password'];
 	}
 	
 	public function getDob()
