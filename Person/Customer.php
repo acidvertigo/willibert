@@ -32,6 +32,16 @@ class Customer extends Person;
         $this->surname = $surname;
 	}
 	
+	public function getAddress($id)
+	{
+		return $this->address;
+	}
+	
+	public function setAddress($address)
+	{
+		$this->address = $address;
+	}
+	
 	public function map(array $data)
 	{
 		$this->name    = $data['name'];
