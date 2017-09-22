@@ -14,6 +14,6 @@ abstract class Document
 		return $this->id;
 	}
 	
-	/* map one array to obkect properties */
+	/* map one array to object properties */
 	abstract public function map(array $data);
 }
