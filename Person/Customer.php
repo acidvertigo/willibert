@@ -54,4 +54,14 @@ class Customer extends Person;
         	                    );
         }
 	}
+	
+	public getDob()
+	{
+		return $this->dob;
+	}
+	
+	public setDob($dob)
+	{
+	    $this->dob = $dob;	
+	}
 }
