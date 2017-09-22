@@ -1,5 +1,8 @@
 <?php
 
+/***********************************************
+ * Location abstraction.
+ **********************************************/
 namespace Willibert\Abstraction;
 
 abstract class Location
