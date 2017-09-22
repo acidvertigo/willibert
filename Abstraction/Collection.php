@@ -22,30 +22,6 @@ abstract class Collection implements \Countable, \IteratorAggregate
     	return $this->id;
     }
 
-    /* get one colection */
-    abstract public function get($key);
-
-    /* get all collections */
-    abstract public function getAll();
-
-    /* add one item to collection */
-    abstract public function add($key, $value);
-
-    /* remove one item from collection */
-    abstract public function remove($key);
-
-    /* cheks if value is in the collection */
-    abstract public function contains($value);
-
-    /* push one element at the end of the collection */
-    abstract public function push($value);
-
-    /* add one item on top of the collection */
-    abstract public function prepend($value);
-
-    /* sort the collection */
-    abstract public function sort(\Closure $callback);
-    
     public function count()
     {
         return count($this->items);
@@ -56,20 +32,52 @@ abstract class Collection implements \Countable, \IteratorAggregate
         return new \ArrayIterator($this->items);
     }
     
+    /* get one colection */
     public function get($key)
     {
     	return $this->items[$key];
     }
     
+    /* get all collections */
     public function getAll()
     {
     	return $this->items;
     }
-    
+
+    /* add one item to collection */
     public function add($key, $value)
     {
     	$this->items[$key] = $value;
     }
     
+    /* remove one item from collection */
+    public function remove($key)
+    {
+    	unset($this->items[$key]);
+    }
+
+    /* cheks if value is in the collection */
+    public function contains($value)
+    {
+    	return in_array($this->items, $value);
+    }
+    
+    /* push one element at the end of the collection */
+    public function push($value)
+    {
+    	
+    }
+    
+    /* add one item on top of the collection */
+    public function prepend($value)
+    {
+    	
+    }
+
+    /* sort the collection */
+    public function sort(\Closure $callback)
+    {
+    	uasort($this->items, $callback);
+    }
 
 }
