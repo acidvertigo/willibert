@@ -13,7 +13,7 @@ abstract class Person
 		return $this->id;
 	}
 	
-	abstract public function getName();
-	
+	abstract public function getName();	
 	abstract public function getSurname();
+	abstract public function map(array $data);
 }
