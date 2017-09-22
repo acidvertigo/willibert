@@ -10,4 +10,9 @@ class Manufacturer extends Company;
 	{
 		$this->id = $id;
 	}
+	
+	public function map(array $data)
+	{
+		
+	}
 }
