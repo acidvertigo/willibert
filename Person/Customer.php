@@ -40,7 +40,7 @@ class Customer extends Person;
         {
         	$this->address = new Address;
         	$this->address->map(
-        	                    $data['address‘]
+        	                    $data['address']
         	                    );
         }
 	}
