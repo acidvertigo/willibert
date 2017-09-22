@@ -10,4 +10,9 @@ class Manufacturer extends Location;
 	{
 		$this->id = $id;
 	}
+	
+	public function map(array $data)
+	{
+		
+	}
 }
