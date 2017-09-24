@@ -11,37 +11,7 @@ class Customer extends Person;
 	{
 		$this->id = $id;
 	}
-	
-	public function getName()
-	{
-		return $this->name;
-	}
-	
-	public function setName($name)
-	{
-        $this->name = $name;
-	}
-	
-	public function getSurName()
-	{
-		return $this->surname;
-	}
-	
-	public function setSurName($surname)
-	{
-        $this->surname = $surname;
-	}
-	
-	public function getAddress($id)
-	{
-		return $this->address;
-	}
-	
-	public function setAddress($address)
-	{
-		$this->address = $address;
-	}
-	
+
 	public function map($data)
 	{
 		foreach($data as $key => $value)
