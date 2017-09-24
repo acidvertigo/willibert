@@ -10,4 +10,12 @@ class Quotation extends Document;
 	{
 		$this->id = $id;
 	}
+	
+	public function map(array $data)
+	{
+		foreach($data as $key => $value)
+		{
+		    $this->$key = $value;
+		}
+	}
 }
