@@ -8,7 +8,7 @@ namespace Willibert\Abstraction;
 abstract class Person
 {
 
-    $protected $id;
+    protected $id;
 
 	public function getId()
 	{
