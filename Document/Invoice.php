@@ -13,6 +13,9 @@ class Invoice extends Document;
 	
 	public function map(array $data)
 	{
-		
+		foreach($data as $key => $value)
+		{
+		    $this->$key = $value;
+		}
 	}
 }
