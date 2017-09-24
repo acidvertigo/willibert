@@ -42,22 +42,12 @@ class Customer extends Person;
 		$this->address = $address;
 	}
 	
-	public function map(array $data)
+	public function map($data)
 	{
-		$this->name    = $data['name'];
-		$this->surname = $data['surname'];
-        if($data['address'])
-        {
-        	$this->address = new Address;
-        	$this->address->map(
-        	                    $data['address']
-        	                    );
-        }
-        $this->dob      = $data['dob'];
-        $this->email    = $data['email'];
-        $this->phone    = $data['phone'];
-        $this->fax      = $data['fax'];
-        $this->password = $data['password'];
+		foreach($data as $key => $value)
+		{
+		    $this->$key = $value;
+		}
 	}
 	
 	public function getDob()
